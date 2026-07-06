@@ -1,1 +1,20 @@
 
+{
+  "name": "sayke-nd",
+  "version": "1.0.0",
+  "description": "SAYKE ND — a WhatsApp bot powered by Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "pino": "^9.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
